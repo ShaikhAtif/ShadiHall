@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title> Booking</title>
+
+    <!-- Custom fonts for this template-->
+    <link rel="stylesheet" href="css/Venue.css">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center LOGO" href="index.html">
+                *LOGO AND NAME HERE*
+            </a>
+
+            <!-- Divider -->
+            <!-- <hr class="sidebar-divider"> -->
+
+            <!-- Nav Item - Dashboard -->
+
+            <!-- <li class="nav-item ">
+                <a class="nav-link mt-n0" href="index.html">
+                    <i class="fas ft-sz fa-fw ft-sz fa-tachometer-alt"></i>
+                    <span class="">Dashboard</span></a>
+            </li> -->
+
+            <!-- Divider -->
+
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Dashboard
+            </div>
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">
+                    <i class="fad ft-sz ft-sz fa-home"></i>
+                    <span>Home</span>
+                </a>
+                <!-- <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Custom Components:</h6>
+                        <a class="collapse-item" href="buttons.html">Buttons</a>
+                        <a class="collapse-item" href="cards.html">Cards</a>
+                    </div>
+                </div> -->
+            </li>
+            <li class="nav-item" style="size: 5px;">
+                <a class="nav-link" href="Fav_Venue.html">
+                    <i class="fad ft-sz fa-heart-circle" style="height:0px;"></i>
+                    <span>Favourite Venues</span>
+                </a>
+            </li>
+            <li class="nav-item" style="size: 5px;">
+                <a class="nav-link" href="Venue.html">
+                    <i class="fad fa-church"></i>
+                    <span>List Venues</span>
+                </a>
+            </li>
+            <!-- Nav Item - Utilities Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link" href="Fav_Cat.html">
+                    <i class="fad ft-sz fa-utensils-alt"></i>
+                    <span>Favourite Caterers</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Caterers.html">
+                    <i class="fal ft-sz fa-utensils-alt"></i>
+                    <span>List Caterers</span>
+                </a>
+            </li>
+            <!-- Nav Item - Utilities Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link" href="Fav_Car.html">
+                    <i class="fad ft-sz fa-car-garage"></i>
+                    <span>Favourite Cars</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Car.html">
+                    <i class="fad ft-sz fa-cars"></i>
+                    <span>List Cars</span>
+                </a>
+            </li>
+            <!-- Nav Item - Utilities Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link" href="Fav_Photo.html">
+                    <i class="fal ft-sz fa-camera-movie"></i>
+                    <span>Favourite Phtograpers</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Photographers.html">
+                    <i class="fad ft-sz fa-camera-movie"></i>
+                    <span>List Photograpers</span>
+                </a>
+            </li>
+            <!-- Nav Item - Utilities Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link" href="Booking_Info.html">
+                    <i class="fas ft-sz fa-info-square"></i>
+                    <span>Booking Information</span>
+                </a>
+            </li>
+            <!-- Nav Item - Utilities Collapse Menu -->
+            <li class="nav-item" style="height:max-content;font: bold">
+                <a class="nav-link" href="Booking.html">
+                    <i class="fad ft-sz fa-calendar-check"></i>
+                    <span style="height:max-content;font: bold!important">Booking</span>
+                </a>
+            </li>
+            <!-- Nav Item - Utilities Collapse Menu -->
+
+
+            <!-- Divider -->
+            <hr class="sidebar-divider" style="margin-top: 8px;">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <!-- <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div> -->
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class=" nav1 navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- <a class="navbar-brand" href="#">Navbar w/ text</a> -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav mr-auto">
+                            <!-- <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li> -->
+                        </ul>
+                        <span class="navbar-text dropdown">
+                            <label class="mr-3">Account name</label>
+                            <a class="navbar-brand dropbtn" href="#" style="left: 0;">
+                                <img src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png"
+                                    width="40" height="40" style="border-radius: 50%;">
+                            </a>
+                            <div class="dropdown-content">
+                                <a href="User_Profile.html" class="a1">Update Profile</a>
+                                <a href="#" class="a2">Sign out</a>
+                            </div>
+                            <!-- <img src="" alt=""> -->
+                        </span>
+                    </div>
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid d-flex justify-content-center">
+
+                    <!-- Page Heading -->
+                    <!-- <h1 class="h3 mb-4 text-gray-800">Blank Page</h1> -->
+                    <div class="col-md-12 " style="margin-left: 0%;">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h4> Booking</h4>
+                                        <hr>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="card-deck mb-4">
+                                            <div class="col-sm-12 col-md-8 col-lg-4">
+                                                <div class="card">
+                                                    <img class="card-img-top"
+                                                        src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6a5dcdf8-4631-40fd-84b8-4604fc16b523/dd8oj5z-3d23bc88-33b9-4f40-ba1d-891e16c81cf2.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNmE1ZGNkZjgtNDYzMS00MGZkLTg0YjgtNDYwNGZjMTZiNTIzXC9kZDhvajV6LTNkMjNiYzg4LTMzYjktNGY0MC1iYTFkLTg5MWUxNmM4MWNmMi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.8rklVizkYsGTRN4oooJh68QGHoz7PQiXnmnHB-bAt78"
+                                                        alt="Card image cap">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Card title</h5>
+                                                        <p class="card-text">This is a wider card with supporting text
+                                                            below as a natural lead-inider card with supporting text
+                                                            below as a natural lead-in to additional content. This
+                                                            content is a little bit longer.</p>
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <!-- <small class="text-muted"> -->
+                                                        <!-- <i class="fal fa-heart fa-2x" ></i> -->
+                                                        <a href="" class="btn btn-outline-danger btn-sm"><i
+                                                                class="far fa-heart"></i></a>
+                                                        <!-- <div class="text-right"> -->
+                                                        <a class="btn btn-primary float-right" href="#"
+                                                            role="button">More Details</a>
+                                                        <!-- </div> -->
+                                                        </small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-md-8 col-lg-4">
+                                                <div class="card">
+                                                    <img class="card-img-top"
+                                                        src="https://miro.medium.com/max/1392/0*cLGgW6qWqj130pnW"
+                                                        alt="Card image cap">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Card title2</h5>
+                                                        <p class="card-text">This is a wider card with supporting text
+                                                            below
+                                                            as a natural lead-inider card with supporting text below as
+                                                            a
+                                                            natural lead-in to additional content. This content is a
+                                                            little
+                                                            bit longer.</p>
+                                                    </div>
+                                                    <div class="card-footer ">
+                                                        <!-- <small class="text-muted"> -->
+                                                        <!-- <i class="fal fa-heart fa-2x" ></i> -->
+                                                        <a href="" class="btn btn-outline-danger btn-sm"><i
+                                                                class="far fa-heart"></i></a>
+                                                        <!-- <div class="text-right"> -->
+                                                        <a class="btn btn-primary float-right" href="#"
+                                                            role="button">More
+                                                            Details</a>
+                                                        <!-- </div> -->
+                                                        </small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-md-8 col-lg-4">
+                                                <div class="card">
+                                                    <img class="card-img-top"
+                                                        src="https://images.unsplash.com/photo-1521727284875-14f6b020d1d6?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8d2VkZGluZyUyMHZlbnVlfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80"
+                                                        alt="Card image cap">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Card title</h5>
+                                                        <p class="card-text">This is a wider card with supporting text
+                                                            below
+                                                            as a natural lead-inider card with supporting text below as
+                                                            a
+                                                            natural lead-in to additional content. This content is a
+                                                            little
+                                                            bit longer.</p>
+                                                    </div>
+                                                    <div class="card-footer ">
+                                                        <!-- <small class="text-muted"> -->
+                                                        <!-- <i class="fal fa-heart fa-2x" ></i> -->
+                                                        <a href="" class="btn btn-outline-danger btn-sm"><i
+                                                                class="far fa-heart"></i></a>
+                                                        <!-- <div class="text-right"> -->
+                                                        <a class="btn btn-primary float-right" href="#"
+                                                            role="button">More
+                                                            Details</a>
+                                                        <!-- </div> -->
+                                                        </small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-md-8 col-lg-4">
+                                                <div class="card">
+                                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Card title</h5>
+                                                        <p class="card-text">This is a wider card with supporting text
+                                                            below
+                                                            as a natural lead-inider card with supporting text below as
+                                                            a
+                                                            natural lead-in to additional content. This content is a
+                                                            little
+                                                            bit longer.</p>
+                                                    </div>
+                                                    <div class="card-footer ">
+                                                        <!-- <small class="text-muted"> -->
+                                                        <!-- <i class="fal fa-heart fa-2x" ></i> -->
+                                                        <a href="" class="btn btn-outline-danger btn-sm"><i
+                                                                class="far fa-heart"></i></a>
+                                                        <!-- <div class="text-right"> -->
+                                                        <a class="btn btn-primary float-right" href="#"
+                                                            role="button">More
+                                                            Details</a>
+                                                        <!-- </div> -->
+                                                        </small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-md-8 col-lg-4">
+                                                <div class="card">
+                                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Card title</h5>
+                                                        <p class="card-text">This is a wider card with supporting text
+                                                            below
+                                                            as a natural lead-inider card with supporting text below as
+                                                            a
+                                                            natural lead-in to additional content. This content is a
+                                                            little
+                                                            bit longer.</p>
+                                                    </div>
+                                                    <div class="card-footer ">
+                                                        <!-- <small class="text-muted"> -->
+                                                        <!-- <i class="fal fa-heart fa-2x" ></i> -->
+                                                        <a href="" class="btn btn-outline-danger btn-sm"><i
+                                                                class="far fa-heart"></i></a>
+                                                        <!-- <div class="text-right"> -->
+                                                        <a class="btn btn-primary float-right" href="#"
+                                                            role="button">More
+                                                            Details</a>
+                                                        <!-- </div> -->
+                                                        </small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-md-8 col-lg-4">
+                                                <div class="card">
+                                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Card title</h5>
+                                                        <p class="card-text">This is a wider card with supporting text
+                                                            below
+                                                            as a natural lead-inider card with supporting text below as
+                                                            a
+                                                            natural lead-in to additional content. This content is a
+                                                            little
+                                                            bit longer.</p>
+                                                    </div>
+                                                    <div class="card-footer ">
+                                                        <!-- <small class="text-muted"> -->
+                                                        <!-- <i class="fal fa-heart fa-2x" ></i> -->
+                                                        <a href="" class="btn btn-outline-danger btn-sm"><i
+                                                                class="far fa-heart"></i></a>
+                                                        <!-- <div class="text-right"> -->
+                                                        <a class="btn btn-primary float-right" href="#"
+                                                            role="button">More
+                                                            Details</a>
+                                                        <!-- </div> -->
+                                                        </small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Your Website 2020</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+</body>
+
+</html>

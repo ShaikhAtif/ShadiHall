@@ -1,0 +1,68 @@
+.fa-heart{
+  color: red;
+}
+.btn-outline-danger:hover  .fa-heart {
+  color: aliceblue!important;
+  transition: 0.6s;
+} 
+.sidebar{
+  background: rgb(11, 10, 17)!important;
+  z-index: 99;
+}
+
+.LOGO{
+  background:  white;
+  color: black!important;
+}
+.btn-primary{
+  background:  white!important;
+  color: rgb(43, 122, 226)!important;
+}
+
+.btn-primary:hover{
+  background-color: rgb(43, 122, 226)!important;
+  color:  white!important;
+  transition: 0.6s;
+}
+.card-img-top{
+  max-height: 212px!important;
+}
+.dropbtn {
+  background-color: white;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 7px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 5%;
+}
+
+.dropdown-content a:hover {color:whitesmoke!important;background: rgb(11, 10, 17); text-decoration: none;transition: 0.3s;}
+.dropdown-content .a1:hover{border-radius: 7px 7px 0px 0px;}
+.dropdown-content .a2:hover{border-radius: 0px 0px 7px 7px;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color:white;}
